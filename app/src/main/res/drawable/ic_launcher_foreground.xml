@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Main Hydro Droplet with Sapphire Blue Gradient -->
+    <path
+        android:pathData="M 54 26 C 47 26 31 46 31 59 C 31 71 41 81 54 81 C 67 81 77 71 77 59 C 77 46 61 26 54 26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="68"
+                android:endY="75"
+                android:startX="40"
+                android:startY="32"
+                android:type="linear">
+                <item
+                    android:color="#4A8CFF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#234CA0"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass Specular Highlight Inner Glow Curve of Droplet -->
+    <path
+        android:pathData="M 37 57 C 37 68 44 75 51 76"
+        android:strokeColor="#A6C8FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Pure white reflection dot on upper right shoulder -->
+    <path
+        android:pathData="M 64 45 C 64 47.7 61.7 50 59 50 C 56.3 50 54 47.7 54 45 C 54 42.3 56.3 40 59 40 C 61.7 40 64 42.3 64 45 Z"
+        android:fillColor="#FFFFFF" />
+
+</vector>
